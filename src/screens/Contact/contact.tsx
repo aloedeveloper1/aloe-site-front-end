@@ -1,10 +1,12 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import './contact.css';
 
 class Contact extends Component{
     render(){
         return(
-            <section></section>
+            <section>
+                Contact
+            </section>
         )
     }
 }

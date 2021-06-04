@@ -1,16 +1,14 @@
 import React, { Component } from "react";
-import "./Header.css";
 import logo from '../../assets/imgs/aloe-img/apple-touch-icon.png';
 
 class Header extends Component {
-  state = {};
   render() {
     return (
       <>
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo" height="50"/>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"><i className="fas fa-bars fa-2x text-light"></i></span>
