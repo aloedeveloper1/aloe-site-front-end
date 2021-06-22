@@ -14,15 +14,7 @@ class Services extends Component{
                 <Header />
                 <section>
                     <div className="container">
-                        <div className="row justify-content-center my-5">
-                            <div className="filter-btns shadow-md rounded-pill text-center col-auto">
-                                <a className="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active" data-filter=".project" href="#all">All</a>
-                                <a className="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".business" href="#business">Business</a>
-                                <a className="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".marketing" href="#marketing">Marketing</a>
-                                <a className="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".social" href="#social">Social Media</a>
-                                <a className="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".graphic" href="#graphic">Graphic</a>
-                            </div>
-                        </div>
+                        <div className="row my-5"></div>
                     </div>
                     <div className="container">
                         <div className="row">

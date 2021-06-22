@@ -8,7 +8,7 @@ class Header extends Component {
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
-              <img src={logo} alt="logo" height="50"/>
+              <img src={logo} alt="logo" height="80"/>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"><i className="fas fa-bars fa-2x text-light"></i></span>
@@ -22,13 +22,10 @@ class Header extends Component {
                   <a className="nav-link text-light h5" href="/services">Nos services</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light h5" href="/travaux">Nos travaux</a>
+                  <a className="nav-link text-light h5" href="/about-us">A propos</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light h5" href="/equipe">Notre équipe</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link text-light h5" href="/contact">contacts</a>
+                  <a className="nav-link text-light h5" href="/contact">Contact</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link text-light h5" href="/compte"><i className="fas fa-user-circle"></i></a>
