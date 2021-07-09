@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import image2 from '../../assets/imgs/team-04.jpg';
-import image3 from '../../assets/imgs/team-03.jpg';
-import image4 from '../../assets/imgs/team-02.jpg';
+import image2 from '../../../assets/imgs/team-04.jpg';
+import image3 from '../../../assets/imgs/team-03.jpg';
+import image4 from '../../../assets/imgs/team-02.jpg'
 
 class Team extends Component{
     render(){

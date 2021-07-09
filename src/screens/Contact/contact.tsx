@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import './contact.css';
-
+import Header from './contact-navbar';
+import Footer from '../../components/Footer/Footer';
+import Banner from './Details/banner';
+import Form from './Details/form';
 class Contact extends Component{
     render(){
         return(
-            <section>
-                Contact
-            </section>
+            <>
+                <Header />
+                <Banner />
+                <Form />
+                <Footer />
+            </>
         )
     }
 }
