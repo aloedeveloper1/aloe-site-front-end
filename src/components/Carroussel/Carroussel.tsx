@@ -5,12 +5,24 @@ import './Carroussel.css';
 import image2 from '../../assets/imgs/banner-bg-02.jpg';
 import image3 from '../../assets/imgs/banner-bg-03.jpg'; */
 
-class Carroussel extends Component{
+type navProps = {
+    home: string,
+    service:string,
+    about:string,
+    contact:string,
+}
+
+class Carroussel extends Component<navProps>{
     render(){
         return(
             <header>
                 <div className="container">
-                    <Navbar />
+                    <Navbar
+                        home = {this.props.home}
+                        service = {this.props.service}
+                        about = {this.props.about}
+                        contact = {this.props.contact}
+                    />
                 </div>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">

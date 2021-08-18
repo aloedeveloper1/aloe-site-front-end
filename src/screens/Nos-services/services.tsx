@@ -11,7 +11,12 @@ class Services extends Component{
     render(){
         return(
             <>
-                <Header />
+                <Header 
+                    home="nav-link text-light h5" 
+                    service="nav-link active h5" 
+                    about="nav-link text-light h5" 
+                    contact="nav-link text-light h5"
+                />
                 <section>
                     <div className="container">
                         <div className="row my-5"></div>

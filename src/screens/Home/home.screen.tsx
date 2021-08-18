@@ -9,7 +9,12 @@ class Home extends Component{
             <div id="home">
                 <section className="text-light">
                     <div className="container">
-                        <Navbar />
+                        <Navbar 
+                            home="nav-link active h5" 
+                            service="nav-link text-light h5" 
+                            about="nav-link text-light h5" 
+                            contact="nav-link text-light h5"
+                        />
                         <div className="row">
                             <div className="col-sm-4 mt-5">
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 

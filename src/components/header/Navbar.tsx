@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import logo from '../../assets/imgs/aloe-img/apple-touch-icon.png';
 
-class Header extends Component {
+type navProps = {
+  home: string,
+  service:string,
+  about:string,
+  contact:string,
+}
+
+class Header extends Component<navProps> {
   render() {
     return (
       <>
@@ -16,16 +23,16 @@ class Header extends Component {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul className="nav">
                 <li className="nav-item">
-                  <a className="nav-link active h5" aria-current="page" href="/">Accueil</a>
+                  <a className={this.props.home} aria-current="page" href="/">Accueil</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light h5" href="/services">Nos services</a>
+                  <a className={this.props.service} href="/services">Nos services</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light h5" href="/about-us">A propos</a>
+                  <a className={this.props.about} href="/about-us">A propos</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-light h5" href="/contact">Contact</a>
+                  <a className={this.props.contact} href="/contact">Contact</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link text-light h5" href="/compte"><i className="fas fa-user-circle"></i></a>
