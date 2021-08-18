@@ -16,12 +16,10 @@ class Home extends Component{
                             contact="nav-link text-light h5"
                         />
                         <div className="row">
-                            <div className="col-sm-4 mt-5">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Velit illo laborum repellat voluptates, 
-                                blanditiis qui, itaque nisi reprehenderit nobis illum 
-                                inventore a molestias repellendus sit unde, 
-                                reiciendis enim officiis maiores!
+                            <div className="col-sm-5 mt-5" id="vision">
+                                <h1 id="vision-title">Notre vision</h1>
+                                Notre ambition est de digitaliser les services tant des administrations que des 
+                                entreprises au Cameroun et en Afrique.
                             </div>
                         </div>
                         <Footer />
