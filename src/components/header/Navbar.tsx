@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import logo from '../../assets/imgs/aloe-img/apple-touch-icon.png';
+import './Navbar.css';
 
 type navProps = {
   home: string,

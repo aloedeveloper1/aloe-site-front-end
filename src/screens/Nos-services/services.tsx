@@ -25,7 +25,7 @@ class Services extends Component{
                         <div className="row">
                             <div className="col-sm-4">
                                 <div className="card text-white">
-                                    <img src={image1} className="card-img" alt="..." />
+                                    <img src={image1} className="card-img" alt="..."/>
                                     <div className="card-img-overlay">
                                         <h5 className="card-title">Card title</h5>
                                         <p className="card-text">
