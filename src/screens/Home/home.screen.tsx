@@ -17,7 +17,6 @@ class Home extends Component{
                         />
                         <div className="row">
                             <div className="col-sm-5 mt-5" id="vision">
-                                <h1 id="vision-title">Notre vision</h1>
                                 Notre ambition est de digitaliser les services tant des administrations que des 
                                 entreprises au Cameroun et en Afrique.
                             </div>
