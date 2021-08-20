@@ -6,7 +6,7 @@ import image1 from '../../assets/imgs/services-01.jpg';
 import image2 from '../../assets/imgs/services-02.jpg';
 import image3 from '../../assets/imgs/services-03.jpg';
 import image4 from '../../assets/imgs/services-04.jpg';
-import image5 from '../../assets/imgs/services-07.jpg';
+import image5 from '../../assets/imgs/service-07.jpg';
 
 class Services extends Component{
     render(){
@@ -84,9 +84,9 @@ class Services extends Component{
                                         vers le digital. Nous accompagnons les organisations dans l'automatisation de leurs travaux,
                                         la facilitation de la réalisation de certaines tâches et bien d'autre encore.
                                     </p>
-                                    <p className="feature-work-body text-muted light-300">
+                                    {/* <p className="feature-work-body text-muted light-300">
                                         Tout ceci est possible grâce à la mise à disposition de votre organisation
-                                    </p>
+                                    </p> */}
                                 </div>
                                 <div className="col-lg-6 offset-lg-1 align-left">
                                     <div className="row">
